@@ -16,7 +16,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
 }
 
 .auth-form button {
@@ -24,14 +24,15 @@
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #007bff;
+    background-color: #00e5ff;
     color: white;
     cursor: pointer;
 }
 
 .auth-form button:hover {
-    background-color: #0056b3;
+    background-color: #00b39b;
 }
- .hr{
+
+.hr {
     margin-left: 30px;
- }
+}
