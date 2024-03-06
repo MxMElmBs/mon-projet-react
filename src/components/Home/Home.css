@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(O, 0, 0, 0.5);
+  }
+  
+  body, html {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 2em;
+    color: #0000ff;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+  }
+  
+  .navbar a.active {
+    color: #0000ff;
+  }
+  
+  .search input[type="text"] {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  .content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .content, .image-container {
+      padding: 0 10px;
+    }
+  }
+  .main-content {
+    display: flex;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .main-content h1 {
+    color: #0000ff;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    margin-bottom: 20px;
+  }
+  
+  .main-content button {
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      display: none; /* Hide the navbar on small screens */
+    }
+  
+    .search {
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .search input[type="text"] {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .header {
+      flex-wrap: wrap;
+    }
+  
+    .search input[type="text"] {
+      width: auto; /* Keep the search bar width appropriate on larger screens */
+    }
+  }
+  
